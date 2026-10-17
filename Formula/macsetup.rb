@@ -1,10 +1,10 @@
 class Macsetup < Formula
   desc "Terminal dashboard for a macOS setup engine"
   homepage "https://github.com/ryankschultze/macsetup"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/ryankschultze/macsetup/releases/download/v0.1.0/macsetup-aarch64-apple-darwin.tar.xz"
-    sha256 "c01e27cba056af5fbfdabc91c084a13933eb551f13eb6ba0cbaafd6c55b27765"
+    url "https://github.com/ryankschultze/macsetup/releases/download/v0.2.0/macsetup-aarch64-apple-darwin.tar.xz"
+    sha256 "8cbffedc360084b3b231288afe231de780149486d3766325f1b6da3678816f79"
   end
   license "MIT"
 
